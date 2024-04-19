@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const app = express();
 const port = 5000;
-const uri = "mongodb://localhost:27017/BookStorage";
+const uri = "mongodb+srv://yaumingleuk2:123456abc@dennisdb.7w21oc1.mongodb.net/";
 const BookRecord = require("./model/book.model");
 const router = express.Router();
 
